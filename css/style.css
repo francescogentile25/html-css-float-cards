@@ -20,7 +20,7 @@ h1{
     margin:30px;
 }
 .container>p{
-    margin: 20px;
+    margin: 20px 0;
     text-align: center;
 }
 
@@ -31,8 +31,9 @@ h1{
     margin-bottom: 50px;
     color: white;
     background-color:rgb(15, 14, 23) ;
+    box-shadow: 7px 7px 4px #cacaca;
+    }
 
-}
 
 .column:nth-child(3n){
     margin-right: 0;
