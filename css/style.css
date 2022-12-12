@@ -29,18 +29,19 @@ h1{
     float: left;
     margin-right: 5%;
     margin-bottom: 50px;
+}
+.card{
     color: white;
     background-color:rgb(15, 14, 23) ;
     box-shadow: 7px 7px 4px #cacaca;
     }
-
 
 .column:nth-child(3n){
     margin-right: 0;
 }
 
 
-.row::after, .column::after{
+.row::after, .card::after{
     display: table;
     content: "";
     clear: both;
