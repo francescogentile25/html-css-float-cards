@@ -16,7 +16,7 @@ h1{
     font-size: 48px;
     margin:30px;
 }
-p{
+.container>p{
     margin: 20px;
     text-align: center;
 }
@@ -27,15 +27,29 @@ p{
     border: 1px solid black;
     float: left;
     margin-right: 5%;
+    margin-bottom: 50px;
 
 }
 
-.column:last-child{
+.column:nth-child(3n){
     margin-right: 0;
 }
 
 
-.card::after{
+.row::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.card-image img{
+    width: 100px;
+}
+
+.card-info{
+    float: right;
+}
+.column::after{
     display: table;
     content: "";
     clear: both;
