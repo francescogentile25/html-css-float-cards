@@ -25,7 +25,7 @@ body{
 }
 
 .column{
-    width: 30%;
+    width: calc(calc(100% / 3) - 5% );
     float: left;
     margin-right: 5%;
     margin-bottom: 50px;
@@ -37,7 +37,7 @@ body{
 
     .card:hover{
         box-shadow: 7px 7px 4px #cacaca;
-        transform: scale(1.1 );
+        transform: scale(1.1);
     }
 .column:nth-child(3n){
     margin-right: 0;
@@ -51,28 +51,26 @@ body{
 }
 
 .card-image{
+    float: left;
     width: 120px;
-    display:inline-block;
-
 }
 
 .card-info{
-    float: right;
-    width: 240px;
+    float: left;
     padding: 20px;
-
 }
 
-.card-image img{
+.card-image > img{
     width: 100%;
 }
 .card-info>p{
-    margin: 2px;
     padding: 4px;
     font-size: 14px;
     font-weight: bold;
 }
 
 .column p:last-of-type{
-    color: rgb(42, 154, 203)
+    color: rgb(42, 154, 203);
+    cursor: pointer;
+
 }
