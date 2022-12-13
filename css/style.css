@@ -62,6 +62,7 @@ body{
 
 .card-image > img{
     width: 100%;
+    display: block ;/* ELIMINA SPAZIO SOTTO */
 }
 .card-info>p{
     padding: 4px;
